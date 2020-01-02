@@ -1,6 +1,7 @@
-.img-fluid {
-	max-height: 100% !important;
-	max-width: 6% !important;
+.logo {
+	margin-top: 5vh;
+}
+.logo .img-fluid {
 	display: flex;
 }
 .rotation {
@@ -24,5 +25,10 @@
 		transform: rotateY(360deg);
 		moz-transform: rotateY(360deg);
 		ms-transform: rotateY(360deg);
+	}
+}
+@media only screen and (min-device-width: 430px) {
+	.logo .img-fluid {
+		max-width: 100%;
 	}
 }

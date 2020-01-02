@@ -3,8 +3,8 @@ import "./Logo.css";
 import logo from "../../Images/logo.png";
 function Logo() {
 	return (
-		<div className='logo'>
-			<img className='img-fluid rotation mx-auto' src={logo} alt='logo'></img>
+		<div className='logo px-5'>
+			<img className='img-fluid rotation mt-xs-2' src={logo} alt='logo'></img>
 		</div>
 	);
 }
