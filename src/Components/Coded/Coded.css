@@ -1,0 +1,90 @@
+.coded {
+	position: relative;
+}
+.text {
+	position: absolute;
+	left: 48.2%;
+	transform: translateX(-50%) translateY(-50%);
+	list-style: none;
+}
+
+.coded .text.hidden {
+	border-bottom: 1px solid #000;
+}
+
+.coded .text li {
+	display: inline-block;
+	color: #000;
+	transition: all 0.9s ease-in-out;
+}
+.text li {
+	opacity: 1;
+}
+.coded .text li {
+	max-width: 2em;
+}
+.text.hidden li.spaced {
+	padding-left: 0;
+}
+.text li.spaced {
+	padding-left: 0.5em;
+}
+.spaced {
+	font-size: 4vh;
+	font-weight: bold;
+}
+.ghost {
+	font-size: 2vh;
+}
+.text.hidden li.ghost,
+.text.hidden h1.ghost {
+	opacity: 0;
+	max-width: 0;
+}
+.text.move li {
+	position: absolute;
+}
+/* .fadeOut {
+	animation: fadeOut ease 1s;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.fadeIn {
+	animation: fadeIn ease-out 1s;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.nameFadeIn {
+	animation: fadeIn ease-out 2s;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.nameFadeOut {
+	animation: fadeOut ease-out 2s;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+} */
+/* @keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+} */
