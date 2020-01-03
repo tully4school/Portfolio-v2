@@ -10,7 +10,7 @@ import Projects from "./Components/Projects/Projects";
 function App() {
 	return (
 		<div className='App'>
-			<Container classes='content d-flex flex-column'>
+			<Container classes='content d-sm-flex flex-sm-column justify-content-sm-around'>
 				<Content />
 			</Container>
 			<Container classes='vh-100 d-flex flex-column position-relative'>

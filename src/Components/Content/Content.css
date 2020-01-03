@@ -1,7 +1,16 @@
+.headshot {
+	width: 43%;
+	margin: 0 auto;
+}
 .headshot img {
 	width: 100%;
 }
 .content {
 	height: 100vh;
 	background-color: #e7e5e4;
+}
+@media only screen and (max-device-width: 768px) {
+	.headshot {
+		width: 63%;
+	}
 }
