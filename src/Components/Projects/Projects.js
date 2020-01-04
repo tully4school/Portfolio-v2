@@ -18,7 +18,6 @@ class Projects extends Component {
 				</div>
 				<div className='row'>
 					<div className='col-md-12 projects'>
-						<h1>Gallery with hover effect</h1>
 						<div class='wrapper'>
 							<div class='media'>
 								<div class='layer'>

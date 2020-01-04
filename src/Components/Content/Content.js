@@ -7,8 +7,8 @@ class Content extends Component {
 	render() {
 		return (
 			<>
-				<div className='row mt-3'>
-					<div className='col-md-12 mt-5'>
+				<div className='row'>
+					<div className='col-md-12'>
 						<div className='headshot shadow'>
 							<img src={Headshot} alt='Headshot' />
 						</div>
@@ -19,7 +19,7 @@ class Content extends Component {
 						<Name />
 					</div>
 				</div>
-				<div className='row mt-4'>
+				<div className='row'>
 					<div className='col-lg-12'>
 						<Logo />
 					</div>

@@ -4,11 +4,7 @@ import logo from "../../Images/logo.png";
 function Logo() {
 	return (
 		<div className='logo d-flex'>
-			<img
-				className='img-fluid rotation mt-xs-2 mx-auto'
-				src={logo}
-				alt='logo'
-			></img>
+			<img className='img-fluid rotation mx-auto' src={logo} alt='logo'></img>
 		</div>
 	);
 }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./About.css";
 import Header from "../Header/Header";
+import IG from "../IG/IG";
 import Melissa from "../../Images/myyyylissaandi.jpg";
 class About extends Component {
 	render() {
@@ -12,7 +13,7 @@ class About extends Component {
 					</div>
 				</div>
 				<div className='row'>
-					<div className='col-md-6 d-flex px-5 py-5 align-items-center'>
+					<div className='col-md-12 d-flex px-5 py-5 align-items-center'>
 						<p className='about-p'>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
 							dignissimos, eaque cupiditate distinctio eligendi laudantium
@@ -26,9 +27,9 @@ class About extends Component {
 							Ducimus ut aspernatur, totam culpa voluptatem quis fuga ea tempore
 							sint ab assumenda ad deleniti veniam recusandae.
 						</p>
-					</div>
-					<div className='col-md-6 d-flex px-5 py-5 align-items-center'>
-						<img src={Melissa} className='img-fluid' />
+						<div className='col-md-6 d-flex px-5 py-5 align-items-center'>
+							<IG />
+						</div>
 					</div>
 				</div>
 			</>
