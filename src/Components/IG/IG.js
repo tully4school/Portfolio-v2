@@ -6,6 +6,7 @@ import Mom from "../../Images/Mom.jpg";
 import Buster from "../../Images/bust.jpg";
 import Jess from "../../Images/jess.jpg";
 import Boys from "../../Images/heroes.jpg";
+import Container from "../Container/Container";
 class IG extends Component {
 	componentDidMount() {
 		let _typeof =
@@ -275,48 +276,47 @@ class IG extends Component {
 	}
 	render() {
 		return (
-			<div className='row'>
-				<div className='col-md-12'>
-					<div class='hes-gallery' data-wrap='true' data-img-count='false'>
-						<img
-							src={Melissa}
-							alt='image1'
-							data-subtext='My girlfriend Melissa & I'
-							data-alt='kociak'
-							onclick='HesGallery.show(1,0)'
-						/>
-						<img
-							src={Mom}
-							alt='image2'
-							data-subtext='My Mom & I'
-							data-alt='wunsz'
-							onclick='HesGallery.show(1,1)'
-						/>
-						<img
-							src={Jess}
-							alt='image3'
-							data-subtext='My Sister & I'
-							onclick='HesGallery.show(1,2)'
-						/>
-						<img
-							src={Buster}
-							alt='image5'
-							data-subtext='My Dog Buster'
-							onclick='HesGallery.show(1,4)'
-						/>
-						<img
-							src={Boys}
-							alt='image3'
-							data-subtext="Melissa's two wonderful boys"
-							onclick='HesGallery.show(1,2)'
-						/>
-						<img
-							src={Work1}
-							alt='image5'
-							data-subtext='My friend Steve and I at work'
-							onclick='HesGallery.show(1,4)'
-						/>
-					</div>
+			<div className='col-md-6 d-none float-right d-sm-block'>
+				<div class='hes-gallery' data-wrap='true' data-img-count='false'>
+					<img
+						src={Melissa}
+						alt='image1'
+						className='hidden img-fluid'
+						data-subtext='My girlfriend Melissa & I'
+						data-alt='kociak'
+						onclick='HesGallery.show(1,0)'
+					/>
+					<img
+						src={Mom}
+						alt='image2 img-fluid'
+						data-subtext='My Mom & I'
+						data-alt='wunsz'
+						onclick='HesGallery.show(1,1)'
+					/>
+					<img
+						src={Jess}
+						alt='image3'
+						data-subtext='My Sister & I'
+						onclick='HesGallery.show(1,2)'
+					/>
+					<img
+						src={Buster}
+						alt='image5'
+						data-subtext='My Dog Buster'
+						onclick='HesGallery.show(1,4)'
+					/>
+					<img
+						src={Boys}
+						alt='image3'
+						data-subtext="Melissa's two wonderful boys"
+						onclick='HesGallery.show(1,2)'
+					/>
+					<img
+						src={Work1}
+						alt='image5'
+						data-subtext='My friend Steve and I at work'
+						onclick='HesGallery.show(1,4)'
+					/>
 				</div>
 			</div>
 		);

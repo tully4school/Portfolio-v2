@@ -15,6 +15,7 @@ class About extends Component {
 				<div className='row'>
 					<div className='col-md-12 d-flex px-5 py-5 align-items-center'>
 						<p className='about-p'>
+							<IG />
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
 							dignissimos, eaque cupiditate distinctio eligendi laudantium
 							aspernatur quis autem est perspiciatis voluptatibus consequatur
@@ -27,9 +28,6 @@ class About extends Component {
 							Ducimus ut aspernatur, totam culpa voluptatem quis fuga ea tempore
 							sint ab assumenda ad deleniti veniam recusandae.
 						</p>
-						<div className='col-md-6 d-flex px-5 py-5 align-items-center'>
-							<IG />
-						</div>
 					</div>
 				</div>
 			</>

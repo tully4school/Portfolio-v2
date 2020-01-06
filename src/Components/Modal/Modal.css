@@ -1,0 +1,16 @@
+.modal-dialog {
+	max-width: 60% !important;
+}
+.modal-content,
+.modal-content .close {
+	background-color: #000;
+	color: #fff;
+}
+.modal-header,
+.modal-footer {
+	border-bottom: none;
+	border-top: none;
+}
+.modal-body img {
+	width: 100%;
+}

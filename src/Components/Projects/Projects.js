@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Projects.css";
+import $ from "jquery";
 import Header from "../Header/Header";
+import Modal from "../Modal/Modal";
 import Snoop from "../../Images/Snoop.png";
 import Flashcards from "../../Images/Flashcards.png";
 import CryptoTracker from "../../Images/CryptoTracker.png";
@@ -8,6 +10,11 @@ import Storybook from "../../Images/Storybook.png";
 import Cocktails from "../../Images/CocktailMixerApi.png";
 import DeliCious from "../../Images/DeliCious.png";
 class Projects extends Component {
+	componentDidMount() {
+		$("#myModal").on("shown.bs.modal", function() {
+			$("#myInput").trigger("focus");
+		});
+	}
 	render() {
 		return (
 			<>
@@ -16,7 +23,87 @@ class Projects extends Component {
 						<Header span='projects-header' header='Recent Projects' />
 					</div>
 				</div>
-				<div className='row'>
+				<div className='projects my-5'>
+					<div className='row'>
+						<div className='col-md-4 my-5 px-5 justify-space-around'>
+							<Modal
+								img={<img src={Snoop} className='img-fluid' />}
+								src={Snoop}
+								name='Week One School Project: Build a Responsive Website!'
+								details='My first project as a student at General Assembly was to "build a responsive website using HTML and CSS. Research and pick a design for a website and build an honest replica of it" For my site i picked a picture, looking much the same of what you are seeing right now. What i did not realize until a day before it was due was that this site was much bigger than i thought....yes....i had found the ACTUAL mockup. i did the best i could with the day that remained. you can see it here live.'
+							/>
+						</div>
+						<div
+							class='modal fade'
+							id='exampleModal'
+							tabindex='-1'
+							role='dialog'
+							aria-labelledby='exampleModalLabel'
+							aria-hidden='true'
+						>
+							<div class='modal-dialog' role='document'>
+								<div class='modal-content'>
+									<div class='modal-header'>
+										<h5 class='modal-title' id='exampleModalLabel'>
+											Modal title
+										</h5>
+										<button
+											type='button'
+											class='close'
+											data-dismiss='modal'
+											aria-label='Close'
+										>
+											<span aria-hidden='true'>&times;</span>
+										</button>
+									</div>
+									<div class='modal-body'>...</div>
+									<div class='modal-footer'>
+										<button
+											type='button'
+											class='btn btn-secondary'
+											data-dismiss='modal'
+										>
+											Close
+										</button>
+										<button type='button' class='btn btn-primary'>
+											Save changes
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className='col-md-4 my-5 px-5'>
+							<img
+								className='img-fluid'
+								src={Flashcards}
+								alt='Flashcard Game'
+							/>
+						</div>
+						<div className='col-md-4 my-5 px-5'>
+							<img
+								className='img-fluid'
+								src={CryptoTracker}
+								alt='CryptoTracker v1.0'
+							/>
+						</div>
+					</div>
+					<div className='row my-5'>
+						<div className='col-md-4 my-5 px-5'>
+							<img className='img-fluid' src={Storybook} alt='Storybook"' />
+						</div>
+						<div className='col-md-4 my-5 px-5'>
+							<img
+								className='img-fluid'
+								src={Cocktails}
+								alt='Cocktail Recipes API'
+							/>
+						</div>
+						<div className='col-md-4 my-5 px-5'>
+							<img className='img-fluid' src={DeliCious} alt='Delicious' />
+						</div>
+					</div>
+				</div>
+				{/* <div className='row'>
 					<div className='col-md-12 projects'>
 						<div class='wrapper'>
 							<div class='media'>
@@ -96,7 +183,7 @@ class Projects extends Component {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</>
 		);
 	}

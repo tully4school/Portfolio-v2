@@ -13,7 +13,7 @@ function App() {
 			<Container classes='content d-flex flex-column justify-content-around'>
 				<Content />
 			</Container>
-			<Container classes='vh-100 d-flex flex-column position-relative'>
+			<Container classes='d-flex flex-column position-relative'>
 				<About />
 			</Container>
 			<Container>
