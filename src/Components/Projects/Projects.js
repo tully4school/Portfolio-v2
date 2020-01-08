@@ -23,9 +23,9 @@ class Projects extends Component {
 						<Header span='projects-header' header='Recent Projects' />
 					</div>
 				</div>
-				<div className='projects my-5'>
+				<div className='projects my-5 px-4'>
 					<div className='row'>
-						<div className='col-md-4 my-3 px-5 justify-space-around'>
+						<div className='col-md-4 my-3 px-lg-3 px-xl-5 justify-space-around'>
 							<Modal
 								dialogClassName='modal-50w'
 								img={
@@ -36,7 +36,7 @@ class Projects extends Component {
 								details='My first project as a student at General Assembly was to "build a responsive website using HTML and CSS. Research and pick a design for a website and build an honest replica of it" For my site i picked a picture, looking much the same of what you are seeing right now. What i did not realize until a day before it was due was that this site was much bigger than i thought....yes....i had found the ACTUAL mockup. i did the best i could with the day that remained. you can see it here live.'
 							/>
 						</div>
-						<div className='col-md-4 my-3 px-5'>
+						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
 								img={<img src={CryptoTracker} className='img-fluid' />}
@@ -45,7 +45,7 @@ class Projects extends Component {
 								details="My third project was as follows 'You will need to pick a UI pattern from the list below and an API. You'll then build out the UI pattern you chose to work with the API you chose.' I chose an API for CryptoCurrency. I created a site the shows the current top ten crypto's and their current value and their 24 hour change rate on a sleek, simple, easy to read, fully responsive design."
 							/>
 						</div>
-						<div className='col-md-4 my-3 px-5'>
+						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
 								img={
@@ -58,7 +58,7 @@ class Projects extends Component {
 						</div>
 					</div>
 					<div className='row'>
-						<div className='col-md-4 my-3 px-5'>
+						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
 								img={<img src={Storybook} />}
@@ -67,7 +67,7 @@ class Projects extends Component {
 								details="My fifth project, another FUUUUN project since i felt since week 1 we didn't really play with much CSS, this was right in my wheelhouse. Prerequisites include: React and Components, Adobe XD and Storybook. We were given XD with a bunch of components to make and we had to make exact replicas of."
 							/>
 						</div>
-						<div className='col-md-4 my-3 px-5'>
+						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
 								img={<img src={Cocktails} alt='Cocktail Creator' />}
@@ -76,7 +76,7 @@ class Projects extends Component {
 								details="My 6th Project: You will be building a JSON API using Mongoose and Express. In addition, you will find a dataset online to pull data from. You'll use this retrieved data to build your own model(s), and also to seed your database with. Requirements: Be built using Express and Mongoose, Have at least one model,Have complete CR functionality implemented with RESTful routes, Be deployed to Heroku, Have well-documented API routes. This was pretty fun, especially knowing that later that week we would start the build of a front-end. The documentation was completed via SwaggerDocs which a classmate and i had a blast learning about."
 							/>
 						</div>
-						<div className='col-md-4 my-3 px-5'>
+						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
 								img={

@@ -14,6 +14,7 @@ import SQL from "../../Images/sql.png";
 import reactpic from "../../Images/React.png";
 import Swagger from "../../Images/swagger.png";
 import Storybook from "../../Images/Storybook.png";
+import Button from "../Button/Button";
 import Resume from "../../Images/JosephTully2019.pdf";
 
 class Projects extends Component {
@@ -74,11 +75,10 @@ class Projects extends Component {
 				</div>
 				<div className='row'>
 					<div className='col-md-12 d-flex justify-content-center mb-5'>
-						<h2 className='display-4 resume'>
-							<a target='blank' href={Resume}>
+						{/* <a target='blank' href={Resume}>
 								Download my Résumé
-							</a>
-						</h2>
+							</a> */}
+						<Button href={Resume} lable='Download My Résumé'></Button>
 					</div>
 				</div>
 			</>
