@@ -2,3 +2,8 @@
 	min-height: 60vh;
 	max-width: 100vw;
 }
+@media only screen and (max-width: 490px) {
+	.container-fluid {
+		padding: 0;
+	}
+}
