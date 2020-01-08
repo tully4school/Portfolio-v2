@@ -1,7 +1,6 @@
 import React, { useState, render } from "react";
 import "./Modal.css";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 
 function Example(props) {
 	const [show, setShow] = useState(false);
@@ -14,19 +13,23 @@ function Example(props) {
 			<img
 				className='modal-img img-fluid'
 				src={props.src}
-				onClick={handleShow}
+				onClick={() => setShow(true)}
 			/>
 
 			<Modal
 				show={show}
 				onHide={() => setShow(false)}
-				dialogClassName='modal-50w'
-				aria-labelledby='exampleModal'
+				dialogClassName='modal-90w'
+				aria-labelledby='example-custom-modal-styling-title'
 			>
 				<Modal.Header closeButton>
-					<Modal.Title id='exampleModal'>{props.name}</Modal.Title>
+					<Modal.Title id='example-custom-modal-styling-title'>
+						{props.name}
+					</Modal.Title>
 				</Modal.Header>
-				<Modal.Body>{props.img}</Modal.Body>
+				<Modal.Body className='d-flex justify-content-center'>
+					{props.img}
+				</Modal.Body>
 				<Modal.Footer>{props.details}</Modal.Footer>
 			</Modal>
 		</>

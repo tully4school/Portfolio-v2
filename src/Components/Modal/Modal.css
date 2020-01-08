@@ -1,5 +1,6 @@
 .modal-dialog {
 	max-width: 70% !important;
+	max-height: 30vh !important;
 }
 .modal-content,
 .modal-content .close {
@@ -13,4 +14,10 @@
 }
 .modal-body img {
 	width: 100%;
+}
+.modal-img {
+	box-shadow: 1px 7px 13px 3px gray;
+}
+.modal-img:active {
+	box-shadow: none;
 }
