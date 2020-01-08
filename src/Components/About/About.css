@@ -2,15 +2,18 @@
 	color: #fff;
 }
 .about-p {
-	font-size: 2.3em;
+	font-size: 1.5em;
 }
 @media only screen and (max-device-width: 700px) {
 	.about-p {
-		font-size: 6vw;
+		font-size: 5vw;
 	}
 }
-@media only screen and (max-device-width: 490) {
+@media only screen and (max-device-width: 490px) {
 	.modal-body .about {
 		width: 100% !important;
+	}
+	.about-p h2 {
+		font-size: 11vw;
 	}
 }
