@@ -9,3 +9,8 @@
 		font-size: 6vw;
 	}
 }
+@media only screen and (max-device-width: 490) {
+	.modal-body .about {
+		width: 100% !important;
+	}
+}

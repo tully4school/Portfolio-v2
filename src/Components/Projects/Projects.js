@@ -28,7 +28,9 @@ class Projects extends Component {
 						<div className='col-md-4 my-3 px-5 justify-space-around'>
 							<Modal
 								dialogClassName='modal-50w'
-								img={<img src={Snoop} className='img-fluid' />}
+								img={
+									<iframe src='https://tully4school.github.io/First-School-Project/'></iframe>
+								}
 								src={Snoop}
 								name='Week One School Project: Build a Responsive Website!'
 								details='My first project as a student at General Assembly was to "build a responsive website using HTML and CSS. Research and pick a design for a website and build an honest replica of it" For my site i picked a picture, looking much the same of what you are seeing right now. What i did not realize until a day before it was due was that this site was much bigger than i thought....yes....i had found the ACTUAL mockup. i did the best i could with the day that remained. you can see it here live.'

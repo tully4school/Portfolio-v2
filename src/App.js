@@ -7,6 +7,7 @@ import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
 import Proficiencies from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
 	return (
@@ -22,6 +23,9 @@ function App() {
 			</Container>
 			<Container>
 				<Projects />
+			</Container>
+			<Container>
+				<Contact />
 			</Container>
 		</div>
 	);

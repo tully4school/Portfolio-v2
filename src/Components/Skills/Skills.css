@@ -1,3 +1,6 @@
-.resume:hover {
+.resume a:hover {
 	text-decoration: none;
+}
+.resume {
+	text-align: center;
 }

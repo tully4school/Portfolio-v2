@@ -31,9 +31,9 @@ class About extends Component {
 							years working for a company doing side work for their websites but
 							holding different titles. My last employer took me in, trained me
 							in HTML5, CSS3 & Twitter Bootstrap Design and I designed sites for
-							<a href='https://www.koons.com/'>Koons Automall</a>,{" "}
+							<a href='https://www.koons.com/'> Koons Automall</a>,{" "}
 							<a href='https://www.hersonsauto.com/'>Hersons Automall</a>,
-							<a href='https://www.toyotacarlsbad.com'>Toyota Carlsbad</a> and{" "}
+							<a href='https://www.toyotacarlsbad.com'> Toyota Carlsbad</a> and{" "}
 							<a href='http://www.autosavant.com/'>Autosavant</a> to name a few,
 							but I had touched and worked on probably more than 60% of the
 							Dealerships in America. These sites had alot of innerworking parts

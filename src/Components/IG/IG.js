@@ -15,7 +15,7 @@ import Container from "../Container/Container";
 class IG extends Component {
 	render() {
 		return (
-			<div className='col-sm-12 col-lg-6 ml-5 float-right'>
+			<div className=' col-sm-12 col-lg-6 ml-5 float-right'>
 				<div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
 					<Modal
 						dialogClassName='30w'

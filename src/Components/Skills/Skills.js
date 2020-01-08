@@ -74,8 +74,8 @@ class Projects extends Component {
 				</div>
 				<div className='row'>
 					<div className='col-md-12 d-flex justify-content-center mb-5'>
-						<h2 className='display-4'>
-							<a className='resume' href={Resume}>
+						<h2 className='display-4 resume'>
+							<a target='blank' href={Resume}>
 								Download my Résumé
 							</a>
 						</h2>
