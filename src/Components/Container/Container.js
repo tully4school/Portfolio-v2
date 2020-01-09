@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import "./Container.css";
 class Container extends Component {
-	constructor(props) {
-		super(props);
-	}
 	render() {
 		return (
 			<div className='container-fluid'>

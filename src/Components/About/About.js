@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./About.css";
 import Header from "../Header/Header";
 import IG from "../IG/IG";
-import Melissa from "../../Images/myyyylissaandi.jpg";
 class About extends Component {
 	render() {
 		return (

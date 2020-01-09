@@ -1,17 +1,11 @@
 import React, { Component } from "react";
 import "./IG.css";
 import Modal from "../Modal/Modal";
-import Melissa from "../../Images/myyyylissaandi.jpg";
 import MelissaG from "../../Images/melissa.png";
 import Work1 from "../../Images/meandsteve.jpg";
-import Mom from "../../Images/Mom.jpg";
 import MomG from "../../Images/momg.png";
-import Buster from "../../Images/bust.jpg";
 import BusterG from "../../Images/bust.png";
-import Jess from "../../Images/jess.jpg";
 import JessG from "../../Images/jess.png";
-import Boys from "../../Images/heroes.jpg";
-import Container from "../Container/Container";
 class IG extends Component {
 	render() {
 		return (
@@ -19,21 +13,27 @@ class IG extends Component {
 				<div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
 					<Modal
 						dialogClassName='30w'
-						img={<img src={MelissaG} className='img-fluid about' />}
+						img={
+							<img
+								src={MelissaG}
+								className='img-fluid about'
+								alt='Melissa & I'
+							/>
+						}
 						src={MelissaG}
 					/>
 				</div>
 				<div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
 					<Modal
 						dialogClassName='30w'
-						img={<img src={MomG} className='img-fluid about' />}
+						img={<img src={MomG} className='img-fluid about' alt='Mom & I' />}
 						src={MomG}
 					/>
 				</div>
 				<div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
 					<Modal
 						dialogClassName='30w'
-						img={<img src={JessG} className='img-fluid about' />}
+						img={<img src={JessG} className='img-fluid about' alt='Jess & I' />}
 						src={JessG}
 					/>
 				</div>

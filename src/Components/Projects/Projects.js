@@ -29,7 +29,10 @@ class Projects extends Component {
 							<Modal
 								dialogClassName='modal-50w'
 								img={
-									<iframe src='https://tully4school.github.io/First-School-Project/'></iframe>
+									<iframe
+										src='https://tully4school.github.io/First-School-Project/'
+										title='Snoop'
+									></iframe>
 								}
 								src={Snoop}
 								name='Week One School Project: Build a Responsive Website!'
@@ -39,7 +42,13 @@ class Projects extends Component {
 						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
-								img={<img src={CryptoTracker} className='img-fluid' />}
+								img={
+									<img
+										src={CryptoTracker}
+										className='img-fluid'
+										alt='CryptoTracker'
+									/>
+								}
 								src={CryptoTracker}
 								name='Week Three School Project UI Element Project!'
 								details="My third project was as follows 'You will need to pick a UI pattern from the list below and an API. You'll then build out the UI pattern you chose to work with the API you chose.' I chose an API for CryptoCurrency. I created a site the shows the current top ten crypto's and their current value and their 24 hour change rate on a sleek, simple, easy to read, fully responsive design."
@@ -49,7 +58,10 @@ class Projects extends Component {
 							<Modal
 								dialogClassName='modal-50w'
 								img={
-									<iframe src='https://tully4school.github.io/Javascript-Flashcards/'></iframe>
+									<iframe
+										src='https://tully4school.github.io/Javascript-Flashcards/'
+										title='Flashcards'
+									></iframe>
 								}
 								src={Flashcards}
 								name='Week Four School Project: Build a Game with HTML, CSS and JavaScript'
@@ -61,7 +73,7 @@ class Projects extends Component {
 						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
-								img={<img src={Storybook} />}
+								img={<img src={Storybook} alt='Storybook' />}
 								src={Storybook}
 								name='Week Five School Project: Build a React Component Library With Storybook'
 								details="My fifth project, another FUUUUN project since i felt since week 1 we didn't really play with much CSS, this was right in my wheelhouse. Prerequisites include: React and Components, Adobe XD and Storybook. We were given XD with a bunch of components to make and we had to make exact replicas of."
@@ -80,7 +92,10 @@ class Projects extends Component {
 							<Modal
 								dialogClassName='modal-50w'
 								img={
-									<iframe src='https://wizardly-bartik-6c114a.netlify.com/'></iframe>
+									<iframe
+										src='https://wizardly-bartik-6c114a.netlify.com/'
+										title='DeliCious'
+									></iframe>
 								}
 								src={DeliCious}
 								name='Project 8: Building a Full Stack MERN Application'

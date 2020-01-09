@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import "./ContactForm.css";
+import axios from "axios";
 
 class ContactForm extends Component {
-	constructor(props) {
-		super(props);
-	}
 	handleSubmit(e) {
 		e.preventDefault();
 		const name = document.getElementById("name").value;
@@ -12,7 +10,7 @@ class ContactForm extends Component {
 		const message = document.getElementById("message").value;
 		axios({
 			method: "POST",
-			url: "http://localhost:3000/send",
+			url: "http://localhost:3000",
 			data: {
 				name: name,
 				email: email,

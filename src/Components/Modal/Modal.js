@@ -1,12 +1,9 @@
-import React, { useState, render } from "react";
+import React, { useState } from "react";
 import "./Modal.css";
 import Modal from "react-bootstrap/Modal";
 
 function Example(props) {
 	const [show, setShow] = useState(false);
-
-	const handleClose = () => setShow(false);
-	const handleShow = () => setShow(true);
 
 	return (
 		<>
@@ -14,6 +11,7 @@ function Example(props) {
 				className='modal-img img-fluid'
 				src={props.src}
 				onClick={() => setShow(true)}
+				alt='modal'
 			/>
 
 			<Modal
