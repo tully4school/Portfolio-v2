@@ -22,6 +22,9 @@ function App() {
 			<Container>
 				<Projects />
 			</Container>
+			<Container>
+				<Contact />
+			</Container>
 		</div>
 	);
 }

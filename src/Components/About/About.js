@@ -8,7 +8,7 @@ class About extends Component {
 			<>
 				<div className='row'>
 					<div className='col-md-12'>
-						<Header span='about' header='About Me' />
+						<Header span='projects-header' header='About Me' />
 					</div>
 				</div>
 				<div className='row'>

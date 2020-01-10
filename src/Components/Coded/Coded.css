@@ -1,17 +1,19 @@
 .coded {
 	position: relative;
+	animation-delay: 0.5s;
 }
 .text {
 	position: absolute;
-	left: 48.2%;
-	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	transform: translateX(-52%) translateY(-50%);
 	list-style: none;
+	padding-left: 0;
+	width: 100%;
+	text-align: center;
 }
-
-.coded .text.hidden {
-	border-bottom: 1px solid #000;
+.hidden {
+	left: 52%;
 }
-
 .coded .text li {
 	display: inline-block;
 	color: #000;
@@ -30,11 +32,10 @@
 	padding-left: 0.5em;
 }
 .spaced {
-	font-size: 4vh;
-	font-weight: bold;
+	font-size: 3.5rem;
 }
 .ghost {
-	font-size: 2vh;
+	font-size: 2.5rem;
 }
 .text.hidden li.ghost,
 .text.hidden h1.ghost {
@@ -44,47 +45,11 @@
 .text.move li {
 	position: absolute;
 }
-/* .fadeOut {
-	animation: fadeOut ease 1s;
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-}
-.fadeIn {
-	animation: fadeIn ease-out 1s;
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-}
-.nameFadeIn {
-	animation: fadeIn ease-out 2s;
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-}
-.nameFadeOut {
-	animation: fadeOut ease-out 2s;
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-} */
-/* @keyframes fadeOut {
-	0% {
-		opacity: 1;
+@media only screen and (max-device-width: 1230px) {
+	.spaced {
+		font-size: 4vw;
 	}
-	100% {
-		opacity: 0;
+	.ghost {
+		font-size: 3vw;
 	}
 }
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-} */

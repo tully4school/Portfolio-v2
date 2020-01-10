@@ -1,3 +1,11 @@
+.proficiencies img,
+.modal-img {
+	transition: 0.2s;
+}
+.proficiencies img:hover,
+.modal-img:hover {
+	transform: scale(1.1);
+}
 .resume a:hover {
 	text-decoration: none;
 }

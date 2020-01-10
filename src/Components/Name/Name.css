@@ -1,20 +1,54 @@
-h1 {
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.name {
+	margin-top: 2em;
+}
+.fadeInFast {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+.fadeIn {
+	-webkit-animation-duration: 2.5s;
+	animation-duration: 2.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+.name h1 {
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
 		"AppleGothic", sans-serif;
 	font-size: 70px;
-	padding: 80px 50px;
+	padding: 0 50px;
 	text-align: center;
 	text-transform: uppercase;
 	text-rendering: optimizeLegibility;
+	animation-delay: 1.7s;
 }
-.se {
-	text-align: center;
-	font-size: 2vw;
-	font-weight: 400;
-}
+
 .elegantshadow {
 	color: #131313;
-	letter-spacing: 0.9vw;
+	background-color: #e7e5e4;
+	letter-spacing: 0.15em;
 	text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
 		-3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
 		-6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89,
@@ -25,6 +59,9 @@ h1 {
 		-21px 42px 1px #cbc9c8, -22px 44px 1px #cfcdcd, -23px 46px 1px #d4d2d1,
 		-24px 48px 1px #d8d6d5, -25px 50px 1px #dbdad9, -26px 52px 1px #dfdddc,
 		-27px 54px 1px #e2e0df, -28px 56px 1px #e4e3e2;
+}
+.by {
+	animation-delay: 1.2s;
 }
 @media only screen and (max-device-width: 1200px) {
 	.name h1 {
@@ -37,6 +74,11 @@ h1 {
 @media only screen and (min-device-width: 992px) {
 	.name .se {
 		font-size: 50px;
+	}
+}
+@media only screen and (max-device-width: 768px) {
+	.name {
+		margin-top: 1rem;
 	}
 }
 @media only screen and (min-device-width: 430px) {

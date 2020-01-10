@@ -13,19 +13,19 @@ class Coded extends Component {
 			let text = $(".text");
 			$(window).scroll(function() {
 				let scroll = $(window).scrollTop();
-				if (scroll <= 0 || scroll > 800) {
-					text.addClass("hidden");
-				} else {
+				if (scroll >= 200) {
 					text.removeClass("hidden");
+				} else {
+					text.addClass("hidden");
 				}
 			});
 		});
 	}
 	render() {
 		return (
-			<div className='coded'>
-				<ul className='text'>
-					<li className='spaced'>C</li>
+			<div className='coded fadeIn'>
+				<ul className='text hidden'>
+					<li className='spaced display-4'>C</li>
 					<li className='ghost'>o</li>
 					<li className='ghost'>n</li>
 					<li className='ghost'>c</li>
@@ -38,8 +38,8 @@ class Coded extends Component {
 					<li className='ghost'>i</li>
 					<li className='ghost'>z</li>
 					<li className='ghost'>e</li>
-					<li className='spaced ghost'>//</li>
-					<li className='spaced'>O</li>
+					<li className='spaced display-4 ghost'>//</li>
+					<li className='spaced display-4'>O</li>
 					<li className='ghost'>r</li>
 					<li className='ghost'>g</li>
 					<li className='ghost'>a</li>
@@ -47,24 +47,24 @@ class Coded extends Component {
 					<li className='ghost'>i</li>
 					<li className='ghost'>z</li>
 					<li className='ghost'>e</li>
-					<li className='spaced ghost'>//</li>
-					<li className='spaced'>D</li>
+					<li className='spaced display-4 ghost'>//</li>
+					<li className='spaced display-4'>D</li>
 					<li className='ghost'>e</li>
 					<li className='ghost'>v</li>
 					<li className='ghost'>e</li>
 					<li className='ghost'>l</li>
 					<li className='ghost'>o</li>
 					<li className='ghost'>p</li>
-					<li className='spaced ghost'>//</li>
-					<li className='spaced'>E</li>
+					<li className='spaced display-4 ghost'>//</li>
+					<li className='spaced display-4'>E</li>
 					<li className='ghost'>n</li>
 					<li className='ghost'>h</li>
 					<li className='ghost'>a</li>
 					<li className='ghost'>n</li>
 					<li className='ghost'>c</li>
 					<li className='ghost'>e</li>
-					<li className='spaced ghost'>//</li>
-					<li className='spaced'>D</li>
+					<li className='spaced display-4 ghost'>//</li>
+					<li className='spaced display-4'>D</li>
 					<li className='ghost'>e</li>
 					<li className='ghost'>l</li>
 					<li className='ghost'>i</li>

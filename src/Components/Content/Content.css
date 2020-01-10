@@ -1,5 +1,5 @@
 .headshot {
-	width: 43%;
+	width: 34%;
 	margin: 0 auto;
 }
 .headshot img {
@@ -12,5 +12,10 @@
 @media only screen and (max-device-width: 768px) {
 	.headshot {
 		width: 63%;
+	}
+}
+@media only screen and (max-device-width: 1230px) {
+	.title {
+		font-size: 4vw;
 	}
 }

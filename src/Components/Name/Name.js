@@ -13,9 +13,11 @@ class Name extends Component {
 			// 	<h1 className='display-4'>Software Engineer</h1>
 			// </div>
 
-			<div className='name'>
-				<h1 class='elegantshadow pb-1 pt-5'>Joseph Tully</h1>
-				<h3 class='se'>Software Engineer</h3>
+			<div className='name justify-content-center'>
+				<h3 className='by display-4 d-flex justify-content-center fadeIn'>
+					By
+				</h3>
+				<h1 className='elegantshadow pb-1 fadeIn'>Joseph Tully</h1>
 			</div>
 		);
 	}

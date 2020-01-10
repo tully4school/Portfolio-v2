@@ -3,6 +3,7 @@ import "./Content.css";
 import Logo from "../Logo/Logo";
 import Headshot from "../../Images/headshot.jpg";
 import Name from "../Name/Name";
+import Coded from "../Coded/Coded";
 class Content extends Component {
 	render() {
 		return (
@@ -14,14 +15,22 @@ class Content extends Component {
 						</div>
 					</div>
 				</div>
-				<div className='row'>
+				<div className='row mt-5'>
 					<div className='col-md-12'>
+						<Coded />
 						<Name />
 					</div>
 				</div>
 				<div className='row'>
 					<div className='col-lg-12'>
 						<Logo />
+					</div>
+				</div>
+				<div className='row'>
+					<div className='col-md-12'>
+						<h3 className='title display-4 d-flex justify-content-center mb-5'>
+							Software Engineer
+						</h3>
 					</div>
 				</div>
 			</>

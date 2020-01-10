@@ -12,6 +12,13 @@
 	border-bottom: none;
 	border-top: none;
 }
+.modal-footer .row {
+	width: 100%;
+}
+.fwUsed {
+	background-color: rgba(255, 255, 255, 1);
+	padding: 15px;
+}
 .modal-body img {
 	width: 100%;
 }
