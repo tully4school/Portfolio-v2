@@ -52,7 +52,10 @@ class ContactForm extends Component {
 						<Header span='projects-header' header='Reach Out' />
 					</div>
 				</div>
-				<Form onSubmit={this.handleSubmit.bind(this)} className='m-5 px-5'>
+				<Form
+					onSubmit={this.handleSubmit.bind(this)}
+					className='m-2 m-md-5 px-md-5'
+				>
 					<FormGroup controlId='formBasicEmail'>
 						<Label className='text-muted'>Email address</Label>
 						<Input
