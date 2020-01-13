@@ -13,7 +13,7 @@ class Coded extends Component {
 			let text = $(".text");
 			$(window).scroll(function() {
 				let scroll = $(window).scrollTop();
-				if (scroll >= 200) {
+				if (scroll >= 100) {
 					text.removeClass("hidden");
 				} else {
 					text.addClass("hidden");
