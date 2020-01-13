@@ -65,10 +65,10 @@
 }
 @media only screen and (max-device-width: 1200px) {
 	.name h1 {
-		font-size: 5vw;
+		font-size: 4.5vw;
 	}
 	.name h3 {
-		font-size: 4vw;
+		font-size: 3.5vw;
 	}
 }
 @media only screen and (min-device-width: 992px) {
