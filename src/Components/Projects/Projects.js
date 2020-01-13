@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Projects.css";
 import $ from "jquery";
 import Header from "../Header/Header";
-import Modal from "../Modal/Modal";
+import Modal from "../Modal/ModalProjects";
 import Snoop from "../../Images/Snoop.png";
 import Flashcards from "../../Images/Flashcards.png";
 import CryptoTracker from "../../Images/CryptoTracker.png";
@@ -38,7 +38,7 @@ class Projects extends Component {
 						<Header span='projects-header' header='Recent Projects' />
 					</div>
 				</div>
-				<div className='projects my-5 px-md-4'>
+				<div className='projects my-5 px-4'>
 					<div className='row'>
 						<div className='col-md-4 my-3 px-lg-3 px-xl-5 justify-space-around'>
 							<Modal
@@ -93,7 +93,6 @@ class Projects extends Component {
 								classEleven='col-3 col-sm-4 d-none'
 								classTwelve='col-3 col-sm-4 d-none'
 								classThirteen='col-3 col-sm-4 d-none'
-							/>
 							/>
 						</div>
 						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>

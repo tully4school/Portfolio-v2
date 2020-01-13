@@ -14,8 +14,6 @@ import SQL from "../../Images/sql.png";
 import reactpic from "../../Images/React.png";
 import Swagger from "../../Images/swagger.png";
 import StorybookIcon from "../../Images/Storybook.png";
-import Button from "../Button/Button";
-import Resume from "../../Images/JosephTully2019.pdf";
 
 function Example(props) {
 	const [show, setShow] = useState(false);
