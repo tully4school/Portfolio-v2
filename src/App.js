@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import logofavicon from "../src/Images/logofavicon.png";
 import Container from "./Components/Container/Container";
 import Content from "./Components/Content/Content";
 import About from "./Components/About/About";
@@ -13,7 +12,6 @@ function App() {
 		<div className='App container-fluid'>
 			<div className='row'>
 				<div className='col-md-12'>
-					<img src={logofavicon} className='d-none' />
 					<Container classes='content d-flex flex-column justify-content-around'>
 						<Content />
 					</Container>
