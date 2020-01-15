@@ -113,7 +113,7 @@ class Projects extends Component {
 						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
-								img={<img src={Storybook} alt='Storybook' />}
+								img={<iframe src='https://hardcore-bassi-355c30.netlify.com/?path=/story/ads--ad-hover-' title="Storybook" />}
 								src={Storybook}
 								name='Week Five School Project: Build a React Component Library With Storybook'
 								details="My fifth project, another FUUUUN project since i felt since week 1 we didn't really play with much CSS, this was right in my wheelhouse. Prerequisites include: React and Components, Adobe XD and Storybook. We were given XD with a bunch of components to make and we had to make exact replicas of."
@@ -135,24 +135,24 @@ class Projects extends Component {
 						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
 								dialogClassName='modal-50w'
-								img={<img src={Cocktails} alt='Cocktail Creator' />}
+								img={<iframe= 'https://silly-hermann-1f0614.netlify.com/contact' title='Cocktail Creator' />}
 								src={Cocktails}
-								name='Project 6: Build a JSON API'
-								details="My 6th Project: You will be building a JSON API using Mongoose and Express. In addition, you will find a dataset online to pull data from. You'll use this retrieved data to build your own model(s), and also to seed your database with. Requirements: Be built using Express and Mongoose, Have at least one model,Have complete CR functionality implemented with RESTful routes, Be deployed to Heroku, Have well-documented API routes. This was pretty fun, especially knowing that later that week we would start the build of a front-end. The documentation was completed via SwaggerDocs which a classmate and i had a blast learning about."
-								classOne='col-2 col-sm-2 pt-5 px-md-4'
-								classTwo='col-2 col-sm-2 pt-5 px-md-4'
-								classThree='col-2 col-sm-2 pt-5 px-md-4'
-								classFour='col-2 col-sm-2 pt-5  px-md-4'
-								classFive='col-2 col-sm-2 pt-5 d-none'
-								classSix='col-2 col-sm-2 pt-5  d-flex align-items-center'
-								classSeven='col-2 col-sm-2 pt-5 d-flex align-items-center'
-								classEight='col-2 col-sm-2 pt-5 d-none'
-								classNine='col-2 col-sm-2 pt-5  d-flex align-items-center'
-								classTen='col-2 col-sm-2 pt-5 d-none'
-								classEleven='col-2 col-sm-2 pt-5 d-none'
-								classTwelve='col-2 col-sm-2 pt-5  d-flex align-items-center'
-								classThirteen='col-2 col-sm-2 pt-5 d-none'
-							/>
+							name='Project 6: Build a JSON API'
+							details="My 6th Project: You will be building a JSON API using Mongoose and Express. In addition, you will find a dataset online to pull data from. You'll use this retrieved data to build your own model(s), and also to seed your database with. Requirements: Be built using Express and Mongoose, Have at least one model,Have complete CR functionality implemented with RESTful routes, Be deployed to Heroku, Have well-documented API routes. This was pretty fun, especially knowing that later that week we would start the build of a front-end. The documentation was completed via SwaggerDocs which a classmate and i had a blast learning about."
+							classOne='col-2 col-sm-2 pt-5 px-md-4'
+							classTwo='col-2 col-sm-2 pt-5 px-md-4'
+							classThree='col-2 col-sm-2 pt-5 px-md-4'
+							classFour='col-2 col-sm-2 pt-5  px-md-4'
+							classFive='col-2 col-sm-2 pt-5 d-none'
+							classSix='col-2 col-sm-2 pt-5  d-flex align-items-center'
+							classSeven='col-2 col-sm-2 pt-5 d-flex align-items-center'
+							classEight='col-2 col-sm-2 pt-5 d-none'
+							classNine='col-2 col-sm-2 pt-5  d-flex align-items-center'
+							classTen='col-2 col-sm-2 pt-5 d-none'
+							classEleven='col-2 col-sm-2 pt-5 d-none'
+							classTwelve='col-2 col-sm-2 pt-5  d-flex align-items-center'
+							classThirteen='col-2 col-sm-2 pt-5 d-none'
+						/>
 						</div>
 						<div className='col-md-4 my-3 px-lg-3 px-xl-5'>
 							<Modal
