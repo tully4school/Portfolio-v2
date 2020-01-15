@@ -15,12 +15,12 @@ class IG extends Component {
 						dialogClassName='30w'
 						img={
 							<img
-								src={MelissaG}
+								src={Work1}
 								className='img-fluid about'
-								alt='Melissa & I'
+								alt='Steve & I @ Work'
 							/>
 						}
-						src={MelissaG}
+						src={Work1}
 						classOne='col-3 col-sm-4 d-none'
 						classTwo='col-3 col-sm-4 d-none'
 						classThree='col-3 col-sm-4 d-none'
