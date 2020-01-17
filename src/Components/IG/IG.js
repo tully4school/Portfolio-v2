@@ -9,8 +9,8 @@ import JessG from "../../Images/jess.png";
 class IG extends Component {
 	render() {
 		return (
-			<div className=' col-sm-12 col-lg-6 ml-5 float-right'>
-				<div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
+			<div className=' col-sm-12 col-lg-2 ml-5 float-right'>
+				{/* <div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
 					<Modal
 						dialogClassName='30w'
 						img={
@@ -55,8 +55,8 @@ class IG extends Component {
 						classTwelve='col-3 col-sm-4 d-none'
 						classThirteen='col-3 col-sm-4 d-none'
 					/>
-				</div>
-				<div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
+				</div> */}
+				<div className='col-sm-12 col-lg-12 my-5 my-3 float-right d-flex'>
 					<Modal
 						dialogClassName='30w'
 						img={

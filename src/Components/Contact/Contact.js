@@ -63,7 +63,7 @@ class ContactForm extends Component {
 							value={this.state.email}
 							className='text-primary'
 							onChange={this.handleChange.bind(this, "email")}
-							placeholder='jondo@emailaddress.com'
+							placeholder='luke.skywalker@emailaddress.com'
 						/>
 					</FormGroup>
 					<FormGroup controlId='formBasicName'>
@@ -74,7 +74,7 @@ class ContactForm extends Component {
 							value={this.state.name}
 							className='text-primary'
 							onChange={this.handleChange.bind(this, "name")}
-							placeholder='Jon Do'
+							placeholder='Luke Skywalker'
 						/>
 					</FormGroup>
 					<FormGroup controlId='formBasicSubject'>
