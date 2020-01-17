@@ -9,7 +9,7 @@ import JessG from "../../Images/jess.png";
 class IG extends Component {
 	render() {
 		return (
-			<div className=' col-sm-12 col-lg-2 ml-5 float-right'>
+			<div className='col-12 col-sm-8 pl-sm-0 col-md-4 col-lg-3 col-xl-2 ml-md-5 m-auto float-md-right'>
 				{/* <div className='col-sm-4 col-lg-4 my-5 my-3 float-right d-flex'>
 					<Modal
 						dialogClassName='30w'
