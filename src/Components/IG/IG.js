@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./IG.css";
 import Modal from "../Modal/ModalIG";
-import MelissaG from "../../Images/melissa.png";
-import Work1 from "../../Images/meandsteve.jpg";
-import MomG from "../../Images/momg.png";
+// import MelissaG from "../../Images/melissa.png";
+// import Work1 from "../../Images/meandsteve.jpg";
+// import MomG from "../../Images/momg.png";
 import BusterG from "../../Images/bust.png";
-import JessG from "../../Images/jess.png";
+// import JessG from "../../Images/jess.png";
 class IG extends Component {
 	render() {
 		return (

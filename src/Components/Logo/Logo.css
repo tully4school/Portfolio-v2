@@ -1,6 +1,7 @@
 .logo .img-fluid {
 	max-width: 100px !important;
 	width: 20%;
+	max-height: 128px !important;
 }
 .rotation {
 	animation-name: rotation;
