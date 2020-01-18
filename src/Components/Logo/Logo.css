@@ -1,8 +1,8 @@
-.logo .img-fluid {
+/* .logo .img-fluid {
 	max-width: 100px !important;
 	width: 20%;
-	max-height: 100% !important;
-}
+	height: 128px !important;
+} */
 .rotation {
 	animation-name: rotation;
 	animation-timing-function: linear;
@@ -26,3 +26,6 @@
 		ms-transform: rotateY(360deg);
 	}
 }
+/* @media screen only and (max-width: 500px) {
+
+} */
