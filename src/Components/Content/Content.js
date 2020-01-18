@@ -9,25 +9,25 @@ class Content extends Component {
 		return (
 			<>
 				<div className='row'>
-					<div className='col-md-12'>
+					<div className='col-lg-12'>
 						<div className='headshot shadow'>
 							<img src={Headshot} alt='Headshot' />
 						</div>
 					</div>
 				</div>
-				<div className='row mt-5'>
-					<div className='col-md-12'>
+				<div className='row mt-md-5'>
+					<div className='col-lg-12'>
 						<Coded />
 						<Name />
 					</div>
 				</div>
 				<div className='row'>
-					<div className='col-6 offset-3 col-md-4 offset-md-4'>
+					<div className='col-6 offset-3 col-lg-4 offset-md-4'>
 						<Logo />
 					</div>
 				</div>
 				<div className='row'>
-					<div className='col-md-12'>
+					<div className='col-lg-12'>
 						<h3 className='title display-4 d-flex justify-content-center mb-5'>
 							Software Engineer
 						</h3>
