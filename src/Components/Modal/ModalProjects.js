@@ -24,7 +24,7 @@ function Example(props) {
 	return (
 		<>
 			<img
-				className='modal-img img-fluid'
+				className='modal-img'
 				src={props.src}
 				onClick={() => setShow(true)}
 				alt='modal'

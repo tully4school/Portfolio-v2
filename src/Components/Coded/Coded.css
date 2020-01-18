@@ -45,7 +45,7 @@
 .text.move li {
 	position: absolute;
 }
-@media only screen and (max-device-width: 1230px) {
+@media only screen and (max-width: 1230px) {
 	.spaced {
 		font-size: 4vw;
 	}

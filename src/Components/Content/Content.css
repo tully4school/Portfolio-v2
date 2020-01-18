@@ -9,12 +9,12 @@
 	background-color: #e7e5e4;
 	min-height: 100vh;
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
 	.headshot {
 		width: 63%;
 	}
 }
-@media only screen and (max-device-width: 1230px) {
+@media only screen and (max-width: 1230px) {
 	.title {
 		font-size: 4vw;
 	}

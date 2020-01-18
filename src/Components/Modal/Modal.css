@@ -28,7 +28,7 @@
 .modal-img:active {
 	box-shadow: none;
 }
-@media only screen and (max-device-width: 576px) {
+@media only screen and (max-width: 576px) {
 	.modal-content {
 		width: 96vw;
 	}

@@ -1,5 +1,6 @@
 .logo img {
-	max-width: 32% !important;
+	width: 32% !important;
+	height: min-intrinsic;
 
 
 }

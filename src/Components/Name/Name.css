@@ -63,7 +63,7 @@
 .by {
 	animation-delay: 1.2s;
 }
-@media only screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 	.name h1 {
 		font-size: 4.5vw;
 	}
@@ -71,17 +71,17 @@
 		font-size: 3.5vw;
 	}
 }
-@media only screen and (min-device-width: 992px) {
+@media only screen and (min-width: 992px) {
 	.name .se {
 		font-size: 50px;
 	}
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-width: 768px) {
 	.name {
 		margin-top: 1rem;
 	}
 }
-@media only screen and (min-device-width: 430px) {
+@media only screen and (min-width: 430px) {
 	.logo .img-fluid {
 		max-width: 100%;
 	}

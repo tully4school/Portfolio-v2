@@ -22,7 +22,7 @@ class Content extends Component {
 					</div>
 				</div>
 				<div className='row'>
-					<div className='col-6 offset-3 col-lg-4 offset-md-4'>
+					<div className='col-6 offset-3 col-lg-4 offset-lg-4'>
 						<Logo />
 					</div>
 				</div>
