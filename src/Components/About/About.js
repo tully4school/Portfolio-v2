@@ -19,12 +19,11 @@ class About extends Component {
 							work. At the age of 11 I found the site{" "}
 							<a href='http://www.angelfire.com'>angelfire.com</a>. As where
 							most youth's have diaries or some way to express themselves I
-							found this was my perfect space and asI shaped this site and
+							found this was my perfect space and as I shaped this site and
 							wanted to customize it more and more I learned how to use their
-							"Advanced" editor (HTML). I spent literally years researching and growing my
-							knowledge on the power of HTML. Even showing off my site at a Show
+							"Advanced" editor (HTML). I spent literally years researching and learning the power of HTML. Even showing off my site at a Show
 							& Tell in my middle school class which astounded my teachers. This showed me
-							what I wanted to be when I "grew up".
+							what I wanted to be when I "grew up", the name wasn't there yet, but the passion for Web Development was.
 							<IG />
 							<h2 className='my-4 display-4'>Becoming an engineer</h2> I spent
 							years working for a company doing side work for their websites but
